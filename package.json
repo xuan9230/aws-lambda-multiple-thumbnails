@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-create-thumbnail",
+  "version": "0.0.0",
+  "description": "Automatically create multiple thumbnails with different size when image added to an AWS S3 bucket",
+  "main": "CreateThumbnail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuan9230/aws-lambda-multiple-thumbnails"
+  },
+  "keywords": [
+    "AWS",
+    "ImageMagick",
+    "S3",
+    "Lambda"
+  ],
+  "author": "xuan9230",
+  "license": "MIT",
+  "homepage": "https://github.com/xuan9230/aws-lambda-multiple-thumbnails",
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.1.21",
+    "gm": "^1.17.0",
+  }
+}
