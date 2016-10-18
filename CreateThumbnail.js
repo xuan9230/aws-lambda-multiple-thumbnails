@@ -72,7 +72,8 @@ exports.handler = function(event, context, callback) {
                 for (var i=0; i<3; i++) {
                   scalingFactors.push(Math.min(
                     MAX_RESOLUTIONS[i].width / size.width,
-                    MAX_RESOLUTIONS[i].height / size.height
+                    MAX_RESOLUTIONS[i].height / size.height,
+                    1
                   ));
                   resolutions.push({
                     width: scalingFactors[i] * size.width,
